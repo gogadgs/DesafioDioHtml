@@ -1,0 +1,150 @@
+/*seção reset navegador */
+
+*{
+    box-sizing:border-box;
+    font-size: 18px;
+    font-family:helvetica sans-serif;
+    margin:0;
+    padding:0;
+
+
+}
+body{
+    padding:0px;
+    display:inlin-block;
+    position:relative;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    background-color:#f1f1F1;
+    justify-content:center;
+}
+
+/*seção cabeçalho*/
+
+
+header{
+    position:relative;
+    display:block;
+    width:100%;
+    height:100px;
+    background-color: #f1f1a5;
+    
+
+}
+
+header img{
+    margin-left :1rem;
+    margin-top:-2.5rem;
+    width:100px;
+    height:80px
+}
+
+
+header ul{
+   
+    width:100%;
+    height:50%;
+    justify-content:center;
+    text-align:center;
+    list-style: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+}
+header ul li{
+    width: 2%;
+    height: 2%;
+    margin:2rem;
+    padding:1.5rem;
+    justify-content:center;
+    text-align:center;
+}
+header ul li a {
+    text-decoration:none;
+    color:#13688d;
+}
+
+header ul li:nth-child(2):hover{
+    background-color:beige;
+    width:100px;
+    height: 10px;
+    box-shadow: #f1f1f1;
+    border-radius:50px;
+   
+}
+header ul li:nth-child(3):hover{
+    background-color:beige;
+    width:100px;
+    height: 10px;
+    box-shadow: #f1f1f1;
+    border-radius:50px;
+    
+}
+header ul li:nth-child(4):hover{
+    background-color:beige;
+    width:160px;
+    height: 10px;
+    text-align:center;
+    box-shadow: #f1f1f1;
+    border-radius:50px;
+}
+header ul li:nth-child(5):hover{
+    background-color:beige;
+    width:100px;
+    height: 10px;
+    text-align:center;
+    box-shadow: #f1f1f1;
+    border-radius:50px;
+}
+
+
+/*seção do conteudo principal*/
+
+
+main{
+    margin-top:1rem;
+    margin-left:10rem;
+    display:block;
+    padding:1rem;
+    width:85%;
+    height:50%;
+    border:1px solid orange;
+}
+
+
+main section h1{
+    margin:0.8rem;
+}
+
+main p{
+    margin:0.8rem;
+}
+
+
+
+main ul li {
+    padding:0.2rem;
+    margin-left:1.5rem;
+    
+    
+    
+}
+
+
+
+/*seção rodapé*/
+
+footer{
+    display:inline-block;
+    position:relative;
+    margin-top: 1rem;
+    margin-right:30rem;
+    padding:1rem;
+    justify-content:center;
+    text-align: center;
+    color:tomato;
+    width: 100%;
+    min-width: 200px;
+    min-height:180px;
+
+}
+
