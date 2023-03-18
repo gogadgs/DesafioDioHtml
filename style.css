@@ -130,6 +130,23 @@ main ul li {
 }
 
 
+table , th,tr,td{
+    border:1px solid black;
+    padding:0.3rem;
+    margin:10px;
+    width:500px;
+
+}
+table ,td{
+   text-align: center;
+
+}
+.layout{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:2px;
+}
+
 
 /*seção rodapé*/
 
